@@ -54,7 +54,7 @@
       
         
           
-            <a class="nav-item nav-link  active " href=" /concepts/ ">Concept</a>
+            <a class="nav-item nav-link  active " href=" /articles/ ">Concepts</a>
           
         
       
@@ -74,84 +74,29 @@
   </div>
 
 </nav>
-  <!-- Simple-Jekyll-Search https://github.com/christian-fei/Simple-Jekyll-Search -->
+  <div class="col-lg-10 mx-auto mt-5 article">
+  <!-- Collect tags from all posts -->
 
-<div class="input-group mt-5 px-3">
-  <input id="search-input" type="text" class="form-control search-box" placeholder="Search articles..">
-  <div class="input-group-append">
-    <span class="input-group-text border border-primary bg-primary text-white">
-      <i class="fas fa-search"></i>
-    </span>
-  </div>
-  <button class="btn btn-outline-primary ml-1" onclick="location.href = '/articles/tags';">
-    <i class="fas fa-tags"></i>
-  </button>
+
+
+
+<!-- List tags & related posts -->
+
+<div class="py-3">
+  <h4 id="version-control">Version Control</h4>
+  <ol>
+  
+    
+      
+    <a href="/concept/what-is-version-control"><li>What is version control?</li></a>
+    <small class="text-muted"> - 09 February 2016</small>
+    <br/>
+    
+  
+  </ol>
 </div>
-<ul class="px-3" id="results-container"></ul>
+<hr class="bg-light">
 
-<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
-<script>
-  var sjs = SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        searchResultTemplate: '<a href="{url}" class="list-group-item list-group-item-action">{title}</a>',
-        noResultsText: '<li class="list-group-item">No results found</li>',
-        json: '/search.json'
-      })
-</script>
-<div class="card-group mt-2">
-
-  
-
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-
-    <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
-      <a href="/concept/what-is-version-control" class="article card bg-secondary">
-        <div class="card-body text-white">
-          <h3 class="card-title">What is version control?</h3>
-          <p class="card-text">
-            
-              <span class="badge badge-light text-secondary">Version Control</span>
-            
-          </p>
-          <p class="card-text">
-            
-              Benefits of version control and version control systems.
-            
-          </p>
-        </div>
-        <div class="card-footer text-white">
-          09 February 2016
-        </div>
-      </a>
-    </div>
-
-  
-
-  <!-- Pagination links -->
-	<div class="mx-auto my-3">
-
-		
-			<span class="badge badge-light text-muted"><</span>
-		
-
-		<small class="mx-2"> Page <b>1</b> of 1 </small>
-
-		
-			<span class="badge badge-light text-muted">></span>
-		
-
-  </div>
-  
 </div>
   </main>
 
